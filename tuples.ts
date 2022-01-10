@@ -16,3 +16,10 @@ const tea: Drink = ['brown', false, 0];
 //Tuples elements are acepted with this type
 // pepsi[0]= 40;
 // pepsi[2] = true;
+
+const carSpecs: [number,number] = [400, 3354];
+
+const carStats = {
+    horsepower: 400,
+    weight: 3354,
+}
