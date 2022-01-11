@@ -31,6 +31,7 @@ const printVehicle = (vehicle:Vehicle ): void => {
         console.log(`Name: ${vehicle.name}`);
         console.log(`Year: ${vehicle.year}`);
         console.log(`Broken? ${vehicle.broken}`);
+        
        
 }
 
@@ -42,7 +43,7 @@ const printSumarry = (item: Reportable): void => {
     console.log(item.summary);
 }
 
-printVehicle(oldCivic)
+printVehicleSumary(oldCivic)
 printSumarry(drinks);
 
 
